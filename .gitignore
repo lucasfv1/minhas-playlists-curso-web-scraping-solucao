@@ -1,0 +1,5 @@
+# Ignorar arquivos do projeto .idea
+.idea/
+
+# Ignorar pycache
+__pycache__/
