@@ -59,7 +59,7 @@ for musica in musicas_li:
         uri = result["tracks"]["items"][0]["uri"]
         song_uris.append(uri)
     except IndexError:
-        print(f"A múscia '{nome_musica}' naõ existe no Spotify. Pulando para a próxima.")
+        print(f"A música '{nome_musica}' não existe no Spotify. Pulando para a próxima...")
 
 
 # Criar a playlist
